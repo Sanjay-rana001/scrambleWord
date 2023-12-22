@@ -1,5 +1,5 @@
 const Question = document.querySelector(".heading3");
-const Answer = document.querySelector(".answer");
+const Answer = document.querySelector(".answer").value.toLowerCase();
 const Btn = document.querySelector(".btn");
  
 let allWords = [ "aardvark",
