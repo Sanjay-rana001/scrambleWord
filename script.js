@@ -1,5 +1,5 @@
 const Question = document.querySelector(".heading3");
-const Answer = document.querySelector(".answer").value.toLowerCase();
+const Answer = document.querySelector((".answer").value).toLowerCase();
 const Btn = document.querySelector(".btn");
  
 let allWords = [ "aardvark",
@@ -33,6 +33,7 @@ const suffle = (ar)=>{
 
 
 let play = false;
+
 Btn.addEventListener("click",function(){
     if (play==false){
         play=true;
