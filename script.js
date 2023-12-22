@@ -1,5 +1,5 @@
 const Question = document.querySelector(".heading3");
-const Answer = document.querySelector((".answer").value).toLowerCase();
+const Answer = document.querySelector(".answer");
 const Btn = document.querySelector(".btn");
  
 let allWords = [ "aardvark",
@@ -41,7 +41,7 @@ Btn.addEventListener("click",function(){
         Answer.classList.toggle("hidden");
         newword =  createword();
         console.log(newword)
-        
+        Answer.value =(Answer.value).toLowerCase() ;
         randomword = scramble(newword);
         
         suffleword = suffle(randomword)
