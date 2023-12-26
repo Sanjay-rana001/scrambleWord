@@ -1,7 +1,8 @@
 const Question = document.querySelector(".heading3");
 const Answer = document.querySelector(".answer");
 const Btn = document.querySelector(".btn");
- 
+const Answer.value = (Answer.value).toLowerCase() ;
+
 let allWords = [ "aardvark",
     "ant", "anteater", "antelope", "ape", "armadillo", "donkey", "baboon", "badger", "barracuda", "bat", "bear", "beaver", "bee", "bison", "boar", "buffalo", "butterfly", "camel", "cat", "caterpillar", "cattle", "chamois", "cheetah", "chicken", "chimpanzee", "cobra", "cockroach", "crocodile", "crow", "curlew", "deer", "dinosaur", "dog", "dove", "dragonfly", "duck", "elephant", "fox", "frog", "giraffe", "gnat", "gnu", "goat", "gorilla", "goshawk", "hamster", "hare", "hippopotamus", "horse", "hyena", "jackal", "jaguar", "kangaroo", "koala", "lemur", "leopard", "lion", "monkey", "moose", "mouse", "mule", "panther", "parrot", "partridge", "pig", "pigeon", "pony", "porcupine", "rabbit", "raccoon", "rat", "reindeer", "rhinoceros", "rook", "salamander", "scorpion", "sheep", "skunk", "snake", "sparrow", "spider", "squirrel", "starling", "stingray", "stinkbug", "stork", "tiger", "toad", "turtle", "weasel", "wildcat", "wolf", "wolverine", "woodpecker", "yak", "zebra"];
 
